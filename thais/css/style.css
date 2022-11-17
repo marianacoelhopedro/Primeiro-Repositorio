@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@font-face{
+    font-family: caviar;
+    src: url(../fonts/CaviarDreams.ttf); 
+}
+
+@font-face{
+    font-family: caviarb;
+    src: url('../fonts/CaviarDreams_Bold.ttf'); 
+}
+
+@font-face{
+    font-family: Samantha;
+    src: url('../fonts/samantha.ttf'); 
+}
+
+header{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-family: caviar, Arial, Helvetic, sans-serif;
+    font-size: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color:black
+}
+
+header a:hover{
+    color:#b8678b;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 30px;
+    position: relative;
+}
+
+#social-midia{
+    height: 500px;
+    background-color: #780639;
+    padding-right:200px;
+}
+
+
+.agende{
+    text-decoration: none;
+    background: linear-gradient(to right, #3a3537, black);
+    color: white;   
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 20px;    
+}
+
+.agende:hover{
+    background: #12b878;
+}
+
+#thais{
+    height: 643px;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+}
+
+
+.content {
+    margin-left: 120px;
+    padding-top: 80px;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-family: caviar, Arial, Helvetic, sans-serif;
+    font-size: 25px;
+}
+
+.content h2{
+    font-family: Samantha, Arial, Helvetic, sans-serif;
+    font-size: 60px;
+}
+
+.content h3{
+    font-family: caviar, Arial, Helvetic, sans-serif;
+    font-weight: 200;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.sm{
+    height: 100px;
+}
+
+.icons{
+    text-decoration: none;
+}
+
+.stripe{
+    height:40px;
+    background-color:#b8678b;
+}
+
+.section-size{
+    height: 550px;
+}
+
+.alongamentos{
+    padding: 30px;
+}
+
+.alongamentos h2{
+    padding: 10px;
+    background: linear-gradient(to right, #b8678b, #a9014f) ;
+    display: inline-block;
+    border-radius: 10%;
+
+}
+
+.alongamentos a{
+    text-decoration: none;
+    color:black;
+}
+
+.section-container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: caviar, Arial, Helvetic, sans-serif; 
+}
+
+.section-container h1{
+    font-family: Samantha, Arial, Helvetic, sans-serif;
+    font-size: 40px;
+}
+
+.section-container img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.section-container p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.manicure{
+    background-color: #b8678b;
+    padding: 30px;
+}
+
+.gel{
+    padding: 30px;
+}
+
+.regras{
+    background: #780639;
+    background-size: cover;
+    padding: 30px;
+    color: white;
+}
+
+/* Classe abaixo criada para forçar texto à esquerda, já que na classe section container o texto está alinhado ao centro */
+.regras ul{
+    text-align: left;
+    font-size: 21px;
+}
+
+.regras li{
+    margin-bottom: 4px;
+}
+
+.cuidados{
+    background-size: cover;
+    padding: 30px;
+}
+
+/* Classe abaixo criada para forçar texto à esquerda, já que na classe section container o texto está alinhado ao centro */
+.cuidados ul, .cuidados p{
+    text-align: left;
+    font-size: 21px;   
+}
+
+.cuidados li{
+    margin-bottom: 4px;
+}
+
