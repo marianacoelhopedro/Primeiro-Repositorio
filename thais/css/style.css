@@ -51,9 +51,11 @@ header li{
 
 #social-midia{
     height: 500px;
-    background-color: #780639;
+    background-color: #ffb7c5;
     padding-right:200px;
 }
+
+
 
 
 .agende{
@@ -68,7 +70,7 @@ header li{
 }
 
 .agende:hover{
-    background: #12b878;
+    background: #7df685;
 }
 
 #thais{
@@ -99,21 +101,34 @@ header li{
     font-weight: 200;
 }
 
+.content p{
+    margin-bottom: 50px;
+}
+
 .mb{
     margin-bottom: 30px;
 }
 
-.sm{
-    height: 100px;
-}
-
-.icons{
+a{
     text-decoration: none;
 }
 
+.insta{
+    color:black;  
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+}
+
+.insta img{
+    width: 25px;
+}
+
+
 .stripe{
     height:40px;
-    background-color:#b8678b;
+    background-color: lavender;
 }
 
 .section-size{
@@ -126,9 +141,11 @@ header li{
 
 .alongamentos h2{
     padding: 10px;
-    background: linear-gradient(to right, #b8678b, #a9014f) ;
+    color: white;
+    background: linear-gradient(to right, #3a3537, black); 
     display: inline-block;
-    border-radius: 10%;
+    border-radius: 10px;
+    font-weight: 100;
 
 }
 
@@ -160,7 +177,7 @@ header li{
 }
 
 .manicure{
-    background-color: #b8678b;
+    background-color: lavender;
     padding: 30px;
 }
 
@@ -169,10 +186,9 @@ header li{
 }
 
 .regras{
-    background: #780639;
+    background: lavender;
     background-size: cover;
     padding: 30px;
-    color: white;
 }
 
 /* Classe abaixo criada para forçar texto à esquerda, já que na classe section container o texto está alinhado ao centro */
@@ -199,4 +215,3 @@ header li{
 .cuidados li{
     margin-bottom: 4px;
 }
-
