@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Samantha;
+    src: url('../fonts/samantha.ttf'); 
+}
+
+header{
+    text-align: center;
+    font-family: Samantha, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: lavender;
+    padding: 30px;
+}

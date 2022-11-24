@@ -55,9 +55,6 @@ header li{
     padding-right:200px;
 }
 
-
-
-
 .agende{
     text-decoration: none;
     background: linear-gradient(to right, #3a3537, black);
@@ -70,7 +67,7 @@ header li{
 }
 
 .agende:hover{
-    background: #7df685;
+    background: #8cee92;
 }
 
 #thais{
@@ -114,9 +111,9 @@ a{
 }
 
 .insta{
-    color:black;  
-    border: 3px solid white;
-    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #484345, black);  
+    padding: 20px;
     border-radius: 50px;
     font-size: 30px;
 }
