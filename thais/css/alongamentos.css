@@ -8,10 +8,73 @@
     src: url('../fonts/samantha.ttf'); 
 }
 
+@font-face{
+    font-family: caviar;
+    src: url(../fonts/CaviarDreams.ttf); 
+}
+
 header{
     text-align: center;
     font-family: Samantha, Arial, Helvetica, sans-serif;
     font-size: 25px;
     background-color: lavender;
     padding: 30px;
+}
+
+.section-size{
+    height: 550px;
+}
+
+.simples{
+    padding: 30px;
+}
+
+.simples h2{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #3a3537, black); 
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 100;
+
+}
+
+.section-container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: caviar, Arial, Helvetic, sans-serif; 
+}
+
+.section-container h1{
+    font-family: Samantha, Arial, Helvetic, sans-serif;
+    font-size: 40px;
+}
+
+.section-container img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.section-container p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.mb{
+    margin-bottom: 30px;
+}
+
+.baby{
+    padding: 30px;
+    background-color: #ffb7c5;
+}
+
+.baby h2{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #3a3537, black); 
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 100;
 }
