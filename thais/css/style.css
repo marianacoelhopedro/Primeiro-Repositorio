@@ -80,7 +80,7 @@ header li{
 
 .content {
     margin-left: 120px;
-    padding-top: 80px;
+    padding-top: 60px;
     width: 60%;
     text-align: center;
     color: white;
@@ -99,8 +99,10 @@ header li{
 }
 
 .content p{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
+
+
 
 .mb{
     margin-bottom: 30px;
@@ -115,7 +117,7 @@ a{
     background: linear-gradient(to right, #484345, black);  
     padding: 20px;
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 30px; 
 }
 
 .insta img{

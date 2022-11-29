@@ -21,6 +21,22 @@ header{
     padding: 30px;
 }
 
+.pp{
+    text-decoration: none;
+    background: linear-gradient(to right, #3a3537, black);
+    color: white;   
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 20px; 
+    font-family: caviar, Arial, Helvetica, sans-serif;   
+}
+
+.pp:hover{
+    background: #8cee92;
+}
+
 .section-size{
     height: 550px;
 }
@@ -71,6 +87,19 @@ header{
 }
 
 .baby h2{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right, #3a3537, black); 
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 100;
+}
+
+.francesa{
+    padding: 30px;
+}
+
+.francesa h2{
     padding: 10px;
     color: white;
     background: linear-gradient(to right, #3a3537, black); 
